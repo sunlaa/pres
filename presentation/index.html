@@ -63,187 +63,123 @@
           </section>
         </section>
         <section data-background-image="./train/sparks.png">
-          <h2>Project demonstration</h2>
+          <h2 style="margin-top: 3em">Project demonstration</h2>
         </section>
         <section>
           <section>
             <h2>Technical details</h2>
           </section>
           <section>
-            <div class="r-stack">
-              <h3>📊 Usage of Jira</h3>
-              <img
-                style="transform: scale(1.5)"
-                class="fragment"
-                src="./katya-slides/2.1_pic.webp"
-              />
-              <img
-                style="transform: scale(1.3)"
-                class="fragment"
-                src="./katya-slides/2.2_pic.webp"
-              />
-            </div>
+            <img src="./train/angular.png" />
           </section>
           <section>
-            <img
-              style="transform: scale(1.6)"
-              src="./katya-slides/3_pic.webp"
-            />
+            <h3>Project structure</h3>
+            <img src="./train/folder-tree.png" style="transform: scale(1.1)" />
           </section>
           <section>
             <div class="r-stack">
+              <h3>Comments</h3>
               <img
+                class="fragment"
                 style="transform: scale(1.4)"
-                src="./katya-slides/calendar_1.png"
+                src="./train/comment-1.png"
               />
               <img
-                style="transform: scale(1.4)"
                 class="fragment"
-                src="./katya-slides//calendar_2.png"
+                style="transform: scale(1.4)"
+                src="./train/comment-2.png"
+              />
+              <img
+                class="fragment"
+                style="transform: scale(1.4)"
+                src="./train/comment-3.png"
               />
             </div>
-          </section>
-          <section>
-            <img
-              style="transform: scale(1.6)"
-              src="./katya-slides/5_pic.webp"
-            />
-          </section>
-          <section>
-            <img
-              style="transform: scale(1.6)"
-              src="./katya-slides/6_pic.webp"
-            />
-          </section>
-          <section>
-            <img
-              style="transform: scale(1.4)"
-              src="./katya-slides/7_pic.webp"
-            />
-          </section>
-          <section>
-            <img src="./katya-slides/8_pic.webp" />
-          </section>
-          <section>
-            <img
-              style="transform: scale(1.3)"
-              src="./katya-slides/10_pic.webp"
-            />
-          </section>
-        </section>
-        <section>
-          <section>
-            <h3>Technical Framework and GitHub Practices</h3>
-          </section>
-          <section>
-            <img src="./pasha-slides/pasha-00.PNG" />
-          </section>
-          <section>
-            <img
-              style="transform: scale(1.5)"
-              src="./pasha-slides/pasha-01.png"
-            />
-          </section>
-          <section>
-            <img src="./pasha-slides/pasha-02.png" />
           </section>
           <section>
             <div class="r-stack">
-              <img src="./pasha-slides/pasha-03-01.png" />
-              <img class="fragment" src="./pasha-slides/pasha-03-02.png" />
+              <h3>Reuse</h3>
+              <img
+                class="fragment"
+                style="transform: scale(1.4)"
+                src="./train/car-1.png"
+              />
+              <img
+                class="fragment"
+                style="transform: scale(1.4)"
+                src="./train/car-2.png"
+              />
             </div>
           </section>
           <section>
-            <img
-              style="transform: scale(1.5)"
-              src="./pasha-slides/pasha-04.png"
-            />
+            <h3>Helpful README.md</h3>
+            <img src="./train/readme.png" />
           </section>
           <section>
-            <img
-              style="transform: scale(1.6)"
-              src="./pasha-slides/pasha-05.png"
-            />
+            <div class="r-stack">
+              <h2>UI</h2>
+              <img class="fragment" src="./train/prime-logo.png" />
+              <img
+                class="fragment"
+                style="transform: scale(1.4)"
+                src="./train/prime-example.png"
+              />
+            </div>
           </section>
           <section>
-            <h3>Git problems</h3>
-            <ul>
-              <li>Conflicts</li>
-              <li>Git rebase</li>
+            <h2>Interaction with API</h2>
+          </section>
+          <section>
+            <h3>Core parts:</h3>
+            <ul style="list-style-type: square">
+              <li>HTTP service 🌐</li>
+              <li>Facade service 🏛</li>
+              <li>NgRx store 📦</li>
+              <li>Effects 🚀</li>
+              <li>Actions 👉</li>
             </ul>
           </section>
           <section>
-            <img
-              style="transform: scale(1.5)"
-              src="./pasha-slides/pasha-07.PNG"
-            />
+            <h4>1. Click (Facade method call)</h4>
+            <img src="./train/click.png" />
           </section>
           <section>
-            <img
-              style="transform: scale(1.5)"
-              src="./pasha-slides/pasha-08.PNG"
-            />
+            <h4>2. Dispatch base action (load)</h4>
+            <img src="./train/trigger.png" />
           </section>
           <section>
-            <img
-              style="transform: scale(1.5)"
-              src="./pasha-slides/pasha-09.PNG"
-            />
+            <h4>3. Catch it in effects</h4>
+            <img src="./train/catch.png" />
           </section>
           <section>
-            <img
-              style="transform: translateY(-90px) scale(0.9)"
-              src="./pasha-slides/pasha-10.PNG"
-            />
+            <h4>
+              4. Call Http service method and dispatch finished action (load
+              success/faild)
+            </h4>
+            <img src="./train/http.png" />
           </section>
           <section>
-            <img
-              style="transform: scale(0.6)"
-              src="./pasha-slides/pasha-11.PNG"
-            />
+            <h4>5. Fill NgRx store with data</h4>
+            <img src="./train/data.png" />
           </section>
           <section>
-            <img
-              style="transform: scale(0.6)"
-              src="./pasha-slides/pasha-12.png"
-            />
+            <h4>6. Draw the UI</h4>
+            <img src="./train/ui.png" />
           </section>
           <section>
-            <img
-              style="transform: scale(0.6)"
-              src="./pasha-slides/pasha-13.png"
-            />
+            <h3>Testing</h3>
+            <img src="./train/jest.png" />
           </section>
           <section>
-            <img
-              style="transform: scale(0.5)"
-              src="./pasha-slides/pasha-14.png"
-            />
+            <img style="transform: scale(0.6)" src="./train/hurry.png" />
           </section>
           <section>
-            <img src="./pasha-slides/pasha-15.png" />
-          </section>
-          <section>
-            <img
-              style="transform: scale(0.5)"
-              src="./pasha-slides/pasha-16.png"
-            />
-          </section>
-          <section>
-            <img
-              style="transform: scale(0.5)"
-              src="./pasha-slides/pasha-17.png"
-            />
-          </section>
-          <section>
-            <img
-              style="transform: scale(0.6)"
-              src="./pasha-slides/pasha-18.jpg"
-            />
+            <img src="./train/tests-1.png" />
+            <img src="./train/tests-2.png" />
           </section>
         </section>
         <section>
-          <img style="transform: scale(1.1)" src="./lada-slides/thanks.webp" />
+          <img style="transform: scale(1.1)" src="./train/thanks.jpg" />
         </section>
       </div>
     </div>
